@@ -1,6 +1,5 @@
 require "benchparser/version"
 
 module Benchparser
-  class Error < StandardError; end
-  # Your code goes here...
+  class ParseError < StandardError; end
 end
