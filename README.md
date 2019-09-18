@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/drish/benchparser.svg?branch=master)](https://travis-ci.com/drish/benchparser)
+
 # Benchparser
 
 Benchparser is a parser for multiple benchmark output formats
