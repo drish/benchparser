@@ -2,6 +2,7 @@
 require "benchparser/version"
 
 # modules
+require "benchparser/result"
 require "benchparser/parsers/go"
 require "benchparser/parsers/ruby"
 require "benchparser/parsers/ts"

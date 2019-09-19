@@ -1,5 +1,4 @@
 require 'spec_helper.rb'
-require 'pry'
 
 RSpec.describe Benchparser::Parsers::Go do
 
@@ -11,6 +10,12 @@ RSpec.describe Benchparser::Parsers::Go do
 
   it 'should return parsed data' do
     parsed = subject.parse(@data)
-    expect(parsed).to_not be_nil
+    expect(parsed.goos).to eql('darwin')
+    expect(parsed.goarch).to eql('amd64')
+    expect(parsed.pkg).to eql('github.com/drish/parser')
+    expect(parsed.functions.count).to eql(5)
+
+    expect(parsed.functions.first[:name]).to eql('BenchmarkFib1-8')
+    expect(parsed.functions.first[:iterations]).to eql("1000000000")
   end
 end
