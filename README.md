@@ -36,10 +36,10 @@ parsed.functions.first[:iterations] # 1000000000
 ```
 
 
-Ruby [benchmark](https://ruby-doc.org/stdlib-2.5.0/libdoc/benchmark/rdoc/Benchmark.html)
-```
-require 'benchparser'
-```
+#### TODO
+
+- [ ] Ruby [benchmark](https://ruby-doc.org/stdlib-2.5.0/libdoc/benchmark/rdoc/
+- [ ] Python [timeit](https://docs.python.org/2/library/timeit.html)
 
 ## Contributing
 
