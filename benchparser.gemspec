@@ -3,7 +3,7 @@ require_relative "lib/benchparser/version"
 Gem::Specification.new do |spec|
   spec.name          = "benchparser"
   spec.version       = Benchparser::VERSION
-  spec.summary       = "Benchparser - benchmark output parser"
+  spec.summary       = "Benchparser - benchmark output parser for multiple languages"
   spec.homepage      = "https://github.com/drish/benchparser"
   spec.license       = "MIT"
 

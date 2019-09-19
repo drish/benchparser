@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.com/drish/benchparser.svg?branch=master)](https://travis-ci.com/drish/benchparser)
+[![Gem Version](https://badge.fury.io/rb/benchparser.svg)](https://badge.fury.io/rb/benchparser)
 
 # Benchparser
 
