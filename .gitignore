@@ -8,3 +8,4 @@
 /tmp/
 *.lock
 .rspec_status
+*.gem
