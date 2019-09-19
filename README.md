@@ -15,10 +15,7 @@ gem 'benchparser'
 
 Golang benchmark standard output 
 
-```ruby
-require 'benchparser'
-
-data = "
+```text
 goos: darwin
 goarch: amd64
 pkg: github.com/drish/parser
@@ -26,6 +23,10 @@ BenchmarkFib1-8     1000000000           2.48 ns/op        0 B/op        0 alloc
 PASS
 ok    github.com/drish/parser 9.960s
 "
+```
+
+```ruby
+require 'benchparser'
 
 parsed = Bp.parse(data)
 parsed.language # go
@@ -33,6 +34,9 @@ parsed.goos # darwin
 parsed.pkg # darwin
 parsed.functions.count # 1
 parsed.functions.first[:iterations] # 1000000000
+parsed.functions.first[:ns_op] # 2.48
+parsed.functions.first[:bytes_op] # 0
+parsed.functions.first[:allocs_op] # 0
 ```
 
 

@@ -27,9 +27,9 @@ module Benchparser
         {
           name: fn.first,
           iterations: fn[1],
-          ns_op: nil,
-          bytes_op: nil,
-          allocs_op: nil
+          ns_op: fn[2],
+          bytes_op: fn[4],
+          allocs_op: fn[6]
         }
       end
 

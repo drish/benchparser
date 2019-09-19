@@ -17,5 +17,8 @@ RSpec.describe Benchparser::Parsers::Go do
 
     expect(parsed.functions.first[:name]).to eql('BenchmarkFib1-8')
     expect(parsed.functions.first[:iterations]).to eql("1000000000")
+    expect(parsed.functions.first[:ns_op]).to eql("2.48")
+    expect(parsed.functions.first[:bytes_op]).to eql("0")
+    expect(parsed.functions.first[:allocs_op]).to eql("0")
   end
 end
