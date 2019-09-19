@@ -18,7 +18,7 @@ Golang benchmark standard output
 require 'benchparser'
 
 out = Benchparser.parse(str)
-out.allocations_per_second
+out.allocs_per_second
 ```
 
 Ruby [benchmark](https://ruby-doc.org/stdlib-2.5.0/libdoc/benchmark/rdoc/Benchmark.html)

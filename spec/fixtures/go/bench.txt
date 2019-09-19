@@ -1,0 +1,10 @@
+goos: darwin
+goarch: amd64
+pkg: github.com/drish/parser
+BenchmarkFib1-8     1000000000           2.48 ns/op        0 B/op        0 allocs/op
+BenchmarkFib2-8     200000000          7.19 ns/op        0 B/op        0 allocs/op
+BenchmarkFib3-8     100000000         12.7 ns/op         0 B/op        0 allocs/op
+BenchmarkFib10-8     3000000         419 ns/op         0 B/op        0 allocs/op
+BenchmarkFib20-8       30000       52369 ns/op         0 B/op        0 allocs/op
+PASS
+ok    github.com/drish/parser 9.960s
