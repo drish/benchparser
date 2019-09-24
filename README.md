@@ -45,6 +45,7 @@ parsed.functions.first[:allocs_op] # 0
 
 - [ ] Ruby [benchmark](https://ruby-doc.org/stdlib-2.5.0/libdoc/benchmark/rdoc/)
 - [ ] Python [timeit](https://docs.python.org/2/library/timeit.html)
+- [ ] Rust [Criterion](https://github.com/bheisler/criterion.rs)
 
 ## Contributing
 
