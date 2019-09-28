@@ -23,7 +23,6 @@ pkg: github.com/drish/parser
 BenchmarkFib1-8     1000000000           2.48 ns/op        0 B/op        0 allocs/op
 PASS
 ok    github.com/drish/parser 9.960s
-"
 ```
 
 ```ruby
